@@ -3,6 +3,7 @@ div .entrywrap, div .entrywrap-hover {
     word-wrap: break-word;
     border-radius: 25px;
     background-color: #b7fffd;
+    border: none;
 }
 
 textarea .cmty-post-textarea {
@@ -96,4 +97,8 @@ textarea  {
     display: block;
     margin: auto !important; 
     margin-bottom: 10px !important;
+}
+
+.post-comment::after {
+    content: url("https://raw.githubusercontent.com/fishy15/blog-css/master/miniturtlewithborder3.png") !important;
 }
