@@ -1,44 +1,44 @@
 /** This sets the background color of your blog posts.  Try changing the color and see what happens! **/
-div .entrywrap, div .entrywrap-hover {
+div.entrywrap, div.entrywrap-hover {
     word-wrap: break-word;
     border-radius: 25px;
     background-color: #b7fffd;
     border: none;
 }
 
-textarea .cmty-post-textarea {
+textarea.cmty-post-textarea {
     background-color: #b7fffd !important;
 }
 
-div .commentwrap {
+div.commentwrap {
     background-color: #b7fffd;
 }
 
-div .cmty-post-edit-info {
+div.cmty-post-edit-info {
    display: none !important;
 }
 
-div .comment.row1 {
+div.comment.row1 {
     background-color: #2391ff;
 }
 
-div .comment.row2 {
+div.comment.row2 {
     background-color: #23bdff;
 }
 
-img .blog-direct-post-link {
+img.blog-direct-post-link {
     display: none !important;
 }
 
-div #header {
+#header {
     background-color: #b5ffb2 !important;
 }
 
-div #side {
+#side {
     background-color: #89ddcf !important;
 }
 
-p .description {
+p.description {
     font-weight: bold;
 }
 
@@ -50,7 +50,7 @@ body {
     background-color: #2d1d7c !important;
 }
 
-div #wrapper {
+#wrapper {
     background-color: #e6ffe5 !important;
     width: 1000px;
 }
@@ -61,29 +61,29 @@ fieldset {
     border-radius: 15px;
 }
 
-div .cmty-itembox {
+div.cmty-itembox {
     display: none !important;
 }
 
-div .widget-content {
+div.widget-content {
     border-radius: 15px;
 }
 
-div #shouts-widget {
+#shouts-widget {
     background-color: #a7ff89 !important; 
     border-radius: 15px; 
     padding: 10px;
 }
 
-div #side {
+#side {
     width: 30%;
 }
 
-div #main {
+#main {
     width: 70%;
 }
 
-div .widget-header {
+.widget-header {
     margin: 10px;
     background-color: #3aff4b;
     border-radius: 10px;
@@ -101,4 +101,26 @@ textarea  {
 
 .post-comment::after {
     content: url("https://raw.githubusercontent.com/fishy15/blog-css/master/miniturtlewithborder3.png") !important;
+}
+
+.blog-shout {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.blog-shout.row1 {
+    background-color: #2391ff !important;
+    color: white;
+}
+
+.blog-shout.row2 {
+    background-color: #23bdff; !important
+}
+
+.blog-shout.row1 a {
+    color: white;
 }
