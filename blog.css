@@ -124,3 +124,12 @@ textarea  {
 .blog-shout.row1 a {
     color: white;
 }
+
+div.aops-scroll-inner {
+    width: 200px;
+}
+
+ul.aops-scroll-content {
+    width: 230px !important;
+    margin: 0 !important;
+}
