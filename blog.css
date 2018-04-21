@@ -1,0 +1,99 @@
+/** This sets the background color of your blog posts.  Try changing the color and see what happens! **/
+div .entrywrap, div .entrywrap-hover {
+    word-wrap: break-word;
+    border-radius: 25px;
+    background-color: #b7fffd;
+}
+
+textarea .cmty-post-textarea {
+    background-color: #b7fffd !important;
+}
+
+div .commentwrap {
+    background-color: #b7fffd;
+}
+
+div .cmty-post-edit-info {
+   display: none !important;
+}
+
+div .comment.row1 {
+    background-color: #2391ff;
+}
+
+div .comment.row2 {
+    background-color: #23bdff;
+}
+
+img .blog-direct-post-link {
+    display: none !important;
+}
+
+div #header {
+    background-color: #b5ffb2 !important;
+}
+
+div #side {
+    background-color: #89ddcf !important;
+}
+
+p .description {
+    font-weight: bold;
+}
+
+h1 {
+    color: #000000 !important;
+}
+
+body {
+    background-color: #2d1d7c !important;
+}
+
+div #wrapper {
+    background-color: #e6ffe5 !important;
+    width: 1000px;
+}
+
+fieldset {
+    background-color: #3239ff !important;
+    border: 0;
+    border-radius: 15px;
+}
+
+div .cmty-itembox {
+    display: none !important;
+}
+
+div .widget-content {
+    border-radius: 15px;
+}
+
+div #shouts-widget {
+    background-color: #a7ff89 !important; 
+    border-radius: 15px; 
+    padding: 10px;
+}
+
+div #side {
+    width: 30%;
+}
+
+div #main {
+    width: 70%;
+}
+
+div .widget-header {
+    margin: 10px;
+    background-color: #3aff4b;
+    border-radius: 10px;
+    text-align: center;
+}
+
+textarea  {
+    width: 90%;
+    overflow: scroll;
+    resize: none !important;
+    display: block;
+    margin: auto !important; 
+    margin-bottom: 10px !important;
+}
