@@ -6,10 +6,6 @@ div.entrywrap, div.entrywrap-hover {
     border: none;
 }
 
-textarea.cmty-post-textarea {
-    background-color: #b7fffd !important;
-}
-
 div.commentwrap {
     background-color: #b7fffd;
 }
