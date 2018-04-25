@@ -26,10 +26,6 @@ img.blog-direct-post-link {
     display: none !important;
 }
 
-#header {
-    background-color: #b5ffb2 !important;
-}
-
 #side {
     background-color: #89ddcf !important;
 }
@@ -133,4 +129,11 @@ ul.aops-scroll-content {
 
 #search-widget {
     display: none;
+}
+
+#header {
+    content: url("https://raw.githubusercontent.com/fishy15/blog-css/master/fishyfishfish.jpg");
+    border: none;
+    //position: sticky;
+    background-attachment: fixed;
 }
